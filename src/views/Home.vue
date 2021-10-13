@@ -37,7 +37,7 @@ export default {
       var minutes = (hours - rhours) * 60;
       var rminutes = Math.round(minutes);
       if (rminutes <= 9){
-        rminutes = `${rminutes}0`;
+        rminutes = `0${rminutes}`;
       }
       else {
         rminutes = rminutes;
